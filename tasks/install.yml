@@ -1,0 +1,8 @@
+- name: Download composer.phar
+  get_url:
+    url: "https://getcomposer.org/download/{{ composer_version }}/composer.phar"
+    dest: "{{ composer_path }}/composer"
+    mode: 0755
+
+- name: Check composer version
+  shell: composer -V

@@ -1,2 +1,5 @@
 ---
 # defaults file for ansible-role-composer
+# List version: https://getcomposer.org/download/
+composer_version: "1.8.4"
+composer_path: "/usr/local/bin"
