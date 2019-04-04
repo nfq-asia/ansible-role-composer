@@ -15,6 +15,7 @@ The task is to write an Ansible role to install and manage composer stable versi
 
 3. Output
     - A standard composer command for PHP applications
+
 ---
 ### Defaults
 ### Required variables
