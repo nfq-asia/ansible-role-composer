@@ -11,6 +11,7 @@ The task is to write an Ansible role to install and manage composer stable versi
     - Composer install path: `/usr/local/bin`
 
 2. Prerequisites
+    - Php is requirement.
     - An EC2 instance with a static IP mapped to a hostname
 
 3. Output
@@ -18,7 +19,15 @@ The task is to write an Ansible role to install and manage composer stable versi
 
 ---
 ### Defaults
+
+*   `composer_version` - version of composer, default is `1.8.4`.
+*   `composer_path` - dir path that used to install composer, default is `/usr/local/bin`.
+
 ### Required variables
 ### Optional variables
 ### Tags
+
+*   `install` - install composer.
 ### Notes
+
+*   This role requires php to run.
