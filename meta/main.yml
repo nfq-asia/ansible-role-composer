@@ -14,4 +14,4 @@ dependencies:
   - src: git@git.nfq.asia:devops/ansible-role-php.git
     scm: git
     name: nfq.php
-    version: "1.0.0"
+    version: "1.1.0"
